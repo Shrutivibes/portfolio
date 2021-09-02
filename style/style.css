@@ -6,7 +6,7 @@ background-color: rgb(230, 230, 211);
    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
    border-radius: 20px;
    gap: 20px;
-   height:580px;
+   height:550px;
    width:1262px;
 }
 #item-0{
