@@ -183,12 +183,19 @@ button{
 p{
   text-align: center; color:  #000000;
 }
-@media (max-width: 640px){
+@media only screen and (max-width: 550px){
   .angry-grid {
     background-image: none;
    grid-template-rows: 4rem auto auto 45px;
-   grid-template-columns: 16rem auto;
-   width:360px
+   grid-template-columns: 1fr;
+   grid-template-areas: 
+   "item-o"
+   "iten-1"
+   "item-2"
+   "item-4"
+   "item-5"
+   ;
+
   }
   #item-0{
     grid-row-start: 1;
