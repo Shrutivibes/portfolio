@@ -5,8 +5,8 @@ background-color: rgb(155, 148, 154);
    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
    border-radius: 20px;
    gap: 20px;
-   height:592px;
-   width:1261px;
+   height:589px;
+   width:1260px;
 }
 #item-0{
   border-radius: 20px;
@@ -71,7 +71,7 @@ margin-top: 5%;
    
 }
 #item-6{
-  margin-top: 3%;
+  margin-top: 1%;
   margin-left: 21%;
   margin-right: 28%;
   border-radius: 20px;
