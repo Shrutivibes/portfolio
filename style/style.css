@@ -6,7 +6,7 @@ body{
   align-items: center;
    display: grid; 
 background-color: rgb(155, 148, 154);
-   grid-template-rows: 1fr 1fr 1fr 1fr;
+   grid-template-rows: 1fr 1fr 1fr 1fr; 
    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
    border-radius: 20px;
    gap: 20px;
@@ -191,22 +191,34 @@ p{
 }
 @media only screen and (max-width: 500px){
   .angry-grid {
-    grid-template-columns: repeat(1,1fr);
+    background-color: rgba(240, 230, 140, 0);
+    display: block;
+    width: 500px;
+    align-items: center;
 
+  }
+  button{
+    margin-left: 0%; margin-top: 0%;
+  }
+  #item-0{
+visibility: collapse;
+height: 5%;
+  }
+  #item-2 , #item-1 , #item-3{
+    text-align: center;
+  }
+  #item-4 , #item-5{
+    margin: 0%;
   }
  
   .pic{
     height: 200px;
   }
-  
-  nav{
-    margin-left: 0%;
-  }
-    #item-3{
-      visibility: hidden;
-      
-   }
   #item-6{
     visibility: hidden;
   }
+  nav{
+    margin-left: 0%;
+  }
+ 
 }
