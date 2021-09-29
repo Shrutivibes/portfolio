@@ -11,6 +11,8 @@ background-color: rgb(155, 148, 154);
    border-radius: 20px;
    gap: 20px;
    height: 583px;
+   margin-left: 1%;
+   margin-bottom: 0.5%;
 }
 #item-0{
   border-radius: 20px;
