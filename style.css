@@ -1,0 +1,33 @@
+.nav{
+    padding-top: 2%;
+text-align: center;
+}
+.nav a{
+    text-decoration: none;
+    color: black;
+    font-size: large;
+}
+a:hover{
+    color: rgb(244, 53, 133);
+}
+
+.dark-mode{
+    background-color: rgb(77, 43, 83);
+    color: white;
+}
+.main{
+    font-size: xx-large;
+    text-align: center;
+    padding-bottom: 11%;
+    color: black ;
+}
+.sm{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 4%;
+}
+.info{
+    padding-top: 1%;
+    padding-left: 4%;
+
+}
