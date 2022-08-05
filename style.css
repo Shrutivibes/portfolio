@@ -1,6 +1,14 @@
+.icon{
+    display: flex;
+    justify-content: space-between;
+}
+.ham{
+    margin-left: 2%;
+}
 .nav{
-    padding-top: 2%;
+    padding-top: 1%;
 text-align: center;
+display: flex;
 }
 .nav a{
     text-decoration: none;
@@ -14,6 +22,7 @@ a:hover{
 .dark-mode{
     background-color: rgb(77, 43, 83);
     color: white;
+    text-align: right;
 }
 .main{
     font-size: xx-large;
@@ -29,5 +38,48 @@ a:hover{
 .info{
     padding-top: 1%;
     padding-left: 4%;
-
+}
+.drop{
+    visibility: hidden;
+}
+@media (max-width:700px) {
+.drop{
+    visibility: visible;
+}
+.drp{
+    position: absolute;
+    background-color: lightgrey;
+    padding: 2%;
+    min-width: 100px;
+    display: none;
+    z-index: 1;
+}
+.drp a{
+    text-decoration: none;
+    color: black;
+    padding: 2%;
+}
+.drp a:hover{
+    color: pink;
+}
+.drop:hover .drp{
+    display: block;
+}
+.nav{
+    visibility: hidden;
+}
+.ham, .dark{
+    width: 80%;
+    margin-left: 0%;
+}
+.name{
+    width: 100%;
+}
+.main{
+    font-size: large;
+}
+.info{
+    text-align: center;
+    font-size: small;
+}
 }
