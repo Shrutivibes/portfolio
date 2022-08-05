@@ -1,9 +1,8 @@
 .icon{
-    display: flex;
-    justify-content: space-between;
+    display: inline-flex;
 }
-.ham{
-    margin-left: 2%;
+.buttonClass{
+    visibility: hidden;
 }
 .nav{
     padding-top: 1%;
@@ -20,9 +19,8 @@ a:hover{
 }
 
 .dark-mode{
-    background-color: rgb(77, 43, 83);
+    background-color: rgb(0, 0, 0);
     color: white;
-    text-align: right;
 }
 .main{
     font-size: xx-large;
@@ -65,12 +63,22 @@ a:hover{
 .drop:hover .drp{
     display: block;
 }
+.con{
+    font-size: xx-small;
+    padding-top: 20%;
+}
+.sm{
+    padding-top: 10%;
+}
 .nav{
+    font-size: xx-small;
+    display: block;
     visibility: hidden;
 }
 .ham, .dark{
-    width: 80%;
+    width: 40px;
     margin-left: 0%;
+    padding-bottom: 100%;
 }
 .name{
     width: 100%;
@@ -81,5 +89,34 @@ a:hover{
 .info{
     text-align: center;
     font-size: small;
+    padding-top: 30%;
+    padding-bottom: 5%;
 }
+.buttonClass{
+    visibility: visible;
+    margin-left: 40%;
+       margin-bottom: 40%;
+       font-size:17px;
+  font-family:Trebuchet MS;
+  width:154px;
+  height:55px;
+  border-width:100px;
+  padding: 2%;
+  color:rgb(240, 133, 133);
+  border-color:#f0d53c;
+  font-weight:bold;
+  border-top-left-radius:4px;
+  border-top-right-radius:4px;
+  border-bottom-left-radius:4px;
+  border-bottom-right-radius:4px;
+  box-shadow:inset 0px 39px 0px -24px #e67b733a;
+  text-shadow:inset 0px 1px 0px #ba615b;
+  background:#e4685d2f;
+    }
+    
+    .buttonClass:hover {
+        color: #f0d53c;
+      background: #eb675ed0
+    }
+                  
 }
