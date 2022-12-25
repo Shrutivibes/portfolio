@@ -8,19 +8,34 @@
     padding-top: 1%;
 text-align: center;
 display: flex;
+justify-content: space-between;
 }
 .nav a{
     text-decoration: none;
-    color: black;
-    font-size: large;
+    font-size: medium;
+    color: rgb(37, 36, 36);
 }
+.grid-container {
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 10px;
+    gap: 2%;
+  }
+  .grid-item {
+    
+    border: 2px solid rgba(225, 48, 78, 0.8);
+    padding: 15px;
+    font-size: x-large;
+    text-align: center;
+  }
 a:hover{
     color: rgb(244, 53, 133);
 }
 
 .dark-mode{
     background-color: rgb(0, 0, 0);
-    color: white;
+    color: rgb(255, 255, 255);
 }
 .main{
     font-size: xx-large;
@@ -33,6 +48,9 @@ a:hover{
     padding-bottom: 2%;
     padding-left: 4%;
 }
+.box{
+    display: flex;
+}
 .info{
     padding-top: 1%;
     padding-left: 4%;
@@ -43,6 +61,9 @@ a:hover{
 @media (max-width:700px) {
 .drop{
     visibility: visible;
+}
+.grid-container{
+    grid-template-columns: auto;
 }
 .drp{
     position: absolute;
@@ -56,6 +77,9 @@ a:hover{
     text-decoration: none;
     color: black;
     padding: 2%;
+}
+#pic{
+    width: 20%;
 }
 .drp a:hover{
     color: pink;
