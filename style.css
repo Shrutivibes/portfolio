@@ -4,38 +4,43 @@
 .buttonClass{
     visibility: hidden;
 }
-.nav{
+
+.top{
     padding-top: 1%;
 text-align: center;
 display: flex;
-justify-content: space-between;
 }
-.nav a{
+.top a{
     text-decoration: none;
     font-size: medium;
     color: rgb(37, 36, 36);
+    cursor: cell;
 }
 .grid-container {
     text-align: center;
     display: grid;
     grid-template-columns: auto auto auto auto;
     padding: 10px;
-    gap: 2%;
+    gap: 1%;
+    cursor:none;
+    margin-left: 20%;
+    margin-right: 20%;
   }
   .grid-item {
-    
-    border: 2px solid rgba(225, 48, 78, 0.8);
+        border: 2px solid rgba(225, 48, 78, 0.8);
     padding: 15px;
     font-size: x-large;
     text-align: center;
   }
   .grid-item:hover{
-    background-color: rgba(255, 238, 3, 0.619);
+    background-color: rgba(250, 172, 198, 0.457);
   }
 a:hover{
     color: rgb(244, 53, 133);
 }
-
+b{
+    margin: 2px auto;
+}
 .dark-mode{
     background-color: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
@@ -50,24 +55,34 @@ a:hover{
     padding-top: 2%;
     padding-bottom: 2%;
     padding-left: 4%;
+    cursor: cell;
 }
 .box{
     display: flex;
 }
 .info{
     padding-top: 1%;
-    padding-left: 4%;
 }
 .drop{
     visibility: hidden;
 }
 @media (max-width:700px) {
+    .box{
+        display: block;
+        justify-content: center;
+    }
+    .grid-container{
+display: block;
+margin:auto ;
+    }
+   .grid-item{
+    font-size: smaller;
+    margin: auto;
+   }
 .drop{
     visibility: visible;
 }
-.grid-container{
-    grid-template-columns: auto;
-}
+
 .drp{
     position: absolute;
     background-color: lightgrey;
