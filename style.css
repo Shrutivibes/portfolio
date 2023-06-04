@@ -1,4 +1,6 @@
-
+.bg{
+    background-color: rgba(252, 229, 200, 0.557);
+}
 .icon{
     display: inline-flex;
 }
@@ -29,9 +31,13 @@ display: flex;
     cursor:none;
     margin-left: 20%;
     margin-right: 20%;
+    
+  }
+  #grid-item{
+    border: 2px solid rgba(225, 48, 78, 0.8);
   }
   .grid-item{
-        border: 2px solid rgba(225, 48, 78, 0.8);
+     border: 2px solid rgba(225, 48, 78, 0.8);
     padding: 15px;
     font-size: x-large;
     text-align: center;
