@@ -1,6 +1,4 @@
-.bg{
-    background-color: rgba(252, 229, 200, 0.557);
-}
+
 .icon{
     display: inline-flex;
 }
@@ -29,12 +27,23 @@ display: flex;
     padding: 10px;
     gap: 1%;
     cursor:none;
-    margin-left: 20%;
-    margin-right: 20%;
+    justify-content: center;
     
+  }
+  #grid-container{
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    gap: 1%;
+    cursor:none;
+    margin-left: 20%;
+
+     
   }
   #grid-item{
     border: 2px solid rgba(225, 48, 78, 0.8);
+    
   }
   .grid-item{
      border: 2px solid rgba(225, 48, 78, 0.8);
@@ -57,7 +66,6 @@ li:hover{
     font-size: xx-large;
     text-align: center;
     padding-bottom: 11%;
-    color: black ;
 }
 .sm{
     padding-top: 2%;
@@ -86,7 +94,7 @@ li:hover{
         margin: 0px auto 2px;
         display: block;
     }
-    .grid-container{
+    .grid-container, #grid-container{
 display: block;
 margin:auto ;
     }
@@ -113,7 +121,8 @@ margin:auto ;
     padding: 2%;
 }
 #pic{
-    width: 25%;
+    width: 45%; 
+    margin-bottom: 2%;
 }
 .drp a:hover{
     color: pink;
