@@ -151,6 +151,9 @@ margin:auto ;
     display: block;
     visibility: hidden;
 }
+#resume{
+    visibility: hidden;
+}
 .icon{
     display: flex;
     justify-content: space-between;
